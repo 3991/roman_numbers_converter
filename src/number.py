@@ -1,6 +1,6 @@
 
 
-class number:
+class Number:
 
     def __init__(self, roman, arabic):
         self.roman_numerals = roman

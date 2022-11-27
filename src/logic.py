@@ -1,16 +1,16 @@
-from number import number
+from number import Number
 import constant as c
 
 def init():
     l = []
 
-    l.append(number(c.I, 1))
-    l.append(number(c.V, 5))
-    l.append(number(c.X, 10))
-    l.append(number(c.L, 50))
-    l.append(number(c.C, 100))
-    l.append(number(c.D, 500))
-    l.append(number(c.M, 1000))
+    l.append(Number(c.I, 1))
+    l.append(Number(c.V, 5))
+    l.append(Number(c.X, 10))
+    l.append(Number(c.L, 50))
+    l.append(Number(c.C, 100))
+    l.append(Number(c.D, 500))
+    l.append(Number(c.M, 1000))
 
     return l
 
