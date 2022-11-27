@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-import sys
 from logic import get_arabic
 from controls import command_line_arguments
 

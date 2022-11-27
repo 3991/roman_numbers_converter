@@ -1,4 +1,5 @@
 import argparse
+import sys
 
 def command_line_arguments():
     parser = argparse.ArgumentParser(description = "Description for my parser")
